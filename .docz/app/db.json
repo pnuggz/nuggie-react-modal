@@ -1,0 +1,177 @@
+{
+  "config": {
+    "title": "Nuggie React Tooltip",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "docs/Tooltip.mdx",
+      "value": {
+        "name": "Tooltip",
+        "id": "2d1a67cd7a0e8157f636b991b87d2aec",
+        "filepath": "docs/Tooltip.mdx",
+        "link": "",
+        "slug": "docs-tooltip",
+        "route": "/docs-tooltip",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "tooltip",
+            "depth": 1,
+            "value": "Tooltip"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src\\index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Tooltip",
+          "methods": [],
+          "actualName": "Tooltip",
+          "props": {
+            "idProp": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'nuggie-tooltip-default'",
+                "computed": false
+              }
+            },
+            "defaultDisplay": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "tooltipRender": {
+              "type": {
+                "name": "union",
+                "value": [
+                  {
+                    "name": "node"
+                  },
+                  {
+                    "name": "string"
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src\\tooltip.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Tooltip",
+          "methods": [],
+          "actualName": "Tooltip",
+          "props": {
+            "idProp": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'nuggie-tooltip-default'",
+                "computed": false
+              }
+            },
+            "tooltipRender": {
+              "type": {
+                "name": "union",
+                "value": [
+                  {
+                    "name": "node"
+                  },
+                  {
+                    "name": "string"
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "targetDimLeft": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            },
+            "targetDimTop": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            },
+            "targetDimWidth": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
